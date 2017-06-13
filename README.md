@@ -26,7 +26,7 @@ continues until all files have been deleted.
 
 `processor [path] [token] command]`
 
-# Examples
+## Examples
 
 Copy files in /src to /dst continuously
 
@@ -36,10 +36,10 @@ Display the contents of files in /src one time
 
 `processor /src [FILE] "cat [FILE]"`
 
-# Installation
+## Installation
 
 1. Build processor using gnatmake `gnatmake processor`
 
-# License
+## License
 
 Internet Systems Consortium (ISC)
