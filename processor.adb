@@ -124,7 +124,7 @@ BEGIN
          PUT_LINE ("Copy a file from /src to /dst");
          PUT_LINE ("  processor /src [FILE] ""cp [FILE] /dst""");
          NEW_LINE;
-         PUT_LINE ("Display theh contents of files in /src one time");
+         PUT_LINE ("Display the contents of files in /src one time");
          PUT_LINE ("  processor /src [FILE] ""cat [FILE]""");
          RETURN;
       END IF;
