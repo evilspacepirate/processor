@@ -24,7 +24,7 @@ continues until all files have been deleted.
 
 ## Usage
 
-`processor [path] [token] command]`
+`processor path token command`
 
 ## Examples
 

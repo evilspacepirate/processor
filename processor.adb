@@ -107,7 +107,7 @@ BEGIN
          ARGUMENT (1) = "-h"
       THEN
          PUT_LINE ("Copyright (c) 2017 John Leimon");
-         PUT_LINE ("Usage: processor [path] [token] [command]");
+         PUT_LINE ("Usage: processor path token command ");
          NEW_LINE;
          PUT_LINE ("This program searches a 'path' for non-directory");
          PUT_LINE ("files non-recursively. If a file is found, then");
@@ -134,7 +134,7 @@ BEGIN
    END;
 
    IF ARGUMENT_COUNT /= 3 THEN
-      PUT_LINE ("usage: processor [path] [token] [command]");
+      PUT_LINE ("usage: processor path token command");
       RETURN;
    END IF;
 
